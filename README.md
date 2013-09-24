@@ -1,5 +1,6 @@
 # Front-End Development Workshop for Learn Prime
-==========
+
+*Reference [Front-end Workshop Planning](https://trello.com/c/BfAaiwkK/46-front-end-workshop)*
 
 ### Expectations: After taking this workshop, students will know how to:
 * Organize their stylesheets in a clean and efficient manner.
@@ -27,6 +28,5 @@
 [Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
 [Style]: https://github.com/thoughtbot/guides/tree/master/style "Style Guides"
 
-*Reference [Front-end Workshop Planning](https://trello.com/c/BfAaiwkK/46-front-end-workshop)*
 
 
