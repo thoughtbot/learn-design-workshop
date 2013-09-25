@@ -1,0 +1,19 @@
+// Typography
+$sans-serif: 'Source Sans Pro', sans-serif;
+$serif: $georgia;
+
+$base-font-family: $sans-serif;
+
+// Colors
+$red: #D03B3D;
+$charcoal: #444444;
+$white: #FFFFFF;
+$light-gray: #777171;
+
+$base-font-color: $charcoal;
+$base-accent-color: $red;
+
+$base-link-color: $base-accent-color;
+$base-hover-color: saturate($base-link-color, 30);
+
+$base-border-color: lighten($light-gray, 40);
