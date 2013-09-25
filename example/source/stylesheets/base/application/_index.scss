@@ -23,12 +23,12 @@ section.masthead {
     }
 
     ul {
-      @include span-columns(6 of 12);
-      @include shift(2);
+      @include span-columns(5 of 12);
+      @include shift(3);
       padding-left: 0;
 
       li {
-        @include span-columns(3 of 12);
+        @include span-columns(4 of 12);
         display: inline-block;
         text-align: center;
 
