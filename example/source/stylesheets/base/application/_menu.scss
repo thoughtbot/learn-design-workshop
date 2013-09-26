@@ -1,0 +1,64 @@
+header.top-bar {
+  @include pad(20px);
+  @include outer-container;
+  background: $charcoal;
+  border-bottom: 1px solid rgba(255, 255,255, 0.5);
+  color: $white;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  div.logo {
+    @include span-columns(4 of 12);
+    
+    a {
+      color: $white;
+      text-decoration: none;
+
+      h1 {
+        font-weight: 600;
+      }
+    }
+  }
+
+  ul {
+    @include span-columns(5 of 12);
+    @include shift(3);
+    padding-left: 0;
+
+    li {
+      @include span-columns(4 of 12);
+      display: inline-block;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+}
+
+section.content {
+  article {
+
+    ul.menu {
+      @include outer-container;
+
+      li {
+        @include span-columns(6);
+        @include omega(2n);
+        @include pad(20px 0);
+        text-align: center;
+        
+        p {
+          margin: 0 auto;
+        }
+
+        small {
+          color: lighten($light-gray, 30);
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

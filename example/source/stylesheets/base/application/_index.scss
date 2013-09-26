@@ -7,7 +7,7 @@ section.masthead {
   
   header.top-bar {
     @include pad(20px);
-    @include span-columns(12);
+    @include outer-container;
     background: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid rgba(255, 255,255, 0.5);
     color: $white;
@@ -80,7 +80,7 @@ section.content {
       }
     }
 
-    ul {
+    ul.marketing {
       @include span-columns(12);
       padding-left: 0;
 
