@@ -4,41 +4,6 @@ section.masthead {
   height: 500px;
   position: relative;
   width: 100%;
-  
-  header.top-bar {
-    @include pad(20px);
-    @include outer-container;
-    background: rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid rgba(255, 255,255, 0.5);
-    color: $white;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-
-    div.logo {
-      @include span-columns(4 of 12);
-
-      h1 {
-        font-weight: 600;
-      }
-    }
-
-    ul {
-      @include span-columns(5 of 12);
-      @include shift(3);
-      padding-left: 0;
-
-      li {
-        @include span-columns(4 of 12);
-        display: inline-block;
-        text-align: center;
-
-        a {
-          text-decoration: none;
-          color: $white;
-        }
-      }
-    }
-  }
 
   article {
     bottom: 30px;
@@ -54,6 +19,7 @@ section.masthead {
       h1 {
         font-size: 64px;
         margin: 0;
+        text-shadow: 0 1px 1px rgb(0,0,0);
       }
 
       h3 {
