@@ -33,7 +33,7 @@ section.masthead {
 section.content {
   article {
     @include outer-container;
-    @include pad(40px 0);
+    @include pad(40px);
 
     header {
       @include row();
