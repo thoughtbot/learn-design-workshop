@@ -1,0 +1,48 @@
+section.about.content {
+  article {
+
+    header {
+      margin-bottom: 4.0em;
+    }
+
+    p {
+      @include span-columns(7 of 10);
+      font-weight: 300;
+      font-size: 1.8em;
+      line-height: 1.6em;
+    }
+
+    aside {
+      @include span-columns(3 of 10);
+
+      ul {
+        list-style-type: none;
+
+        li {
+          @include clearfix;
+          @include pad(1.0em 0);
+          text-align: center;
+
+          &:first-child {
+            padding-top: 0;
+          }
+
+          span {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 700;
+
+            &:first-child {
+              font-size: 1.6em;
+            }
+
+            &:nth-of-type(2) {
+              color: lighten($charcoal, 50);
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

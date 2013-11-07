@@ -5,13 +5,13 @@ $serif: $georgia;
 $base-font-family: $sans-serif;
 
 // Colors
-$red: #D03B3D;
 $charcoal: #444444;
+$blue: #5CAEC9;
 $white: #FFFFFF;
 $light-gray: #777171;
 
 $base-font-color: $charcoal;
-$base-accent-color: $red;
+$base-accent-color: $blue;
 
 $base-link-color: $base-accent-color;
 $base-hover-color: saturate($base-link-color, 30);

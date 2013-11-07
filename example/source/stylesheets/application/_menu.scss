@@ -1,0 +1,26 @@
+section.content {
+  background: #FFF;
+
+  article {
+
+    ul.menu {
+      @include outer-container;
+
+      li {
+        @include span-columns(6);
+        @include omega(2n);
+        @include pad(20px 0);
+        text-align: center;
+
+        h5 {
+          margin: 0 auto;
+          font-size: 24px;
+        }
+
+        em {
+          color: lighten($light-gray, 30);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+section.contact {
+  form {
+    @include span-columns(6 of 10);
+    @include shift(2);
+
+    textarea {
+      height: 200px;
+    }
+
+    input[type='submit'] {
+      @include inline-block;
+      @include pad(0.6em 1.0em);
+      float: right;
+      outline: none;
+      user-select: none;
+      white-space: nowrap;
+      border: 4px solid $light-gray;
+      border-radius: 6px;
+      background: $white;
+      color: $light-gray;
+
+      &:hover {
+        color: lighten($light-gray, 10);
+        border: 4px solid lighten($light-gray, 10);
+      }
+    }
+  }
+}

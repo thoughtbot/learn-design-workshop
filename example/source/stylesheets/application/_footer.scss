@@ -1,0 +1,53 @@
+div.footer-spacer {
+  background: $white;
+  height: 255px;
+}
+
+footer {
+  background: $charcoal;
+  bottom: 0;
+  position: absolute;
+
+  section.main-content {
+    @include outer-container;
+    @include pad(20px 40px);
+
+    article.description {
+      @include span-columns(6);
+
+      h4 {
+        color: $light-gray;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: $white;
+      }
+    }
+
+    ul.company {
+      @include span-columns(4);
+      @include shift(2);
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      h4 {
+        color: $light-gray;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  section.copyright {
+    @include outer-container;
+    @include pad(10px 0);
+    color: $light-gray;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

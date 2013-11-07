@@ -1,0 +1,53 @@
+
+fieldset {
+  border: none;
+}
+
+input,
+label,
+select {
+}
+
+label {
+}
+
+textarea,
+#{$all-text-inputs} {
+  @include box-sizing(border-box);
+  @include pad(1.0em);
+  margin: 0.6em auto;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid $base-border-color;
+  width: 100%;
+  resize: none;
+
+  &:hover {
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 6px 0 $blue;
+  }
+}
+
+input[type="search"] {
+  @include appearance(none);
+}
+
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+}
+
+select {
+  width: auto;
+}
+
+button,
+input[type="submit"] {
+  @include appearance(none);
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
