@@ -12,6 +12,7 @@
 * Clone this repository onto your machine.
 * You will be working in the folder called `my_project`.
 * To run the Middleman server, go into the `my_project` directory and run:
+
     bundle exec middleman
 * Go to `http://localhost:4567` to view the website in `my_project`
 * Refer to the folder `example` when you are stuck; this contains the completed
