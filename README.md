@@ -1,4 +1,5 @@
-# Front-End Development Workshop for Learn Prime
+# Best Practices for Front-End Development
+[View the workshop details on the Learn page](https://learn.thoughtbot.com/workshops/25-best-practices-for-front-end-development)
 
 ### Expectations: After taking this workshop, students will know how to:
 
