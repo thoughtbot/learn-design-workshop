@@ -1,6 +1,28 @@
 # Best Practices for Front-End Development
 [View the workshop details on the Learn page](https://learn.thoughtbot.com/workshops/25-best-practices-for-front-end-development)
 
+
+### Pre-requisites:
+* Make sure that [Middleman][Middleman] is installed on your machine.
+* Make sure that you are running Ruby.
+* Make sure that you have Google Chrome downloaded. We use Chrome's Web
+  Inspector during development.
+
+### Directions:
+* Clone this repository onto your machine.
+* You will be working in the folder called `my_project`.
+* To run the Middleman server, go into the `my_project` directory and run:
+    bundle exec middleman
+* Go to `http://localhost:4567` to view the website in `my_project`
+* Refer to the folder `example` when you are stuck; this contains the completed
+  website.
+
+### thoughtbot Resources:
+* [Neat][Neat]
+* [Bourbon][Bourbon]
+* [Style Guides][Style]
+* [Bitters][Bitters]
+
 ### Expectations: After taking this workshop, students will know how to:
 
 * Organize their stylesheets in a clean and efficient manner.
@@ -13,18 +35,6 @@
 * Mark-up a website using semantic HTML 5, strongly influenced by the thoughtbot [style guides][Style].
 * Understand how to install gems (e.g. FontAwesome) and open-source libraries to
   build their toolkit and take advantage of using quality, already-made parts.
-
-### Pre-requisites:
-* Make sure that [Middleman][Middleman] is installed on your machine.
-* Make sure that you are running Ruby.
-* Make sure that you have Google Chrome downloaded. We use Chrome's Web
-  Inspector during development.
-
-### thoughtbot Resources:
-* [Neat][Neat]
-* [Bourbon][Bourbon]
-* [Style Guides][Style]
-* [Bitters][Bitters]
 
 [Neat]: https://github.com/thoughtbot/neat "Neat"
 [Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
