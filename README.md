@@ -12,6 +12,12 @@ Clone this repository onto your machine.
 
 You will be working in the folder called `my_project`.
 
+From the `my_project` folder, run:
+
+    bundle
+
+Bundler will install the necessary gems.
+
 To run the Middleman server, go into the `my_project` directory and run:
 
     bundle exec middleman
