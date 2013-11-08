@@ -1,7 +1,6 @@
 # Best Practices for Front-End Development
 [View the workshop details on the Learn page](https://learn.thoughtbot.com/workshops/25-best-practices-for-front-end-development)
 
-
 ### Pre-requisites:
 * Make sure that [Middleman][Middleman] is installed on your machine.
 * Make sure that you are running Ruby.
@@ -21,6 +20,11 @@ Go to `http://localhost:4567` to view the website in `my_project`
 
 Refer to the folder `example` when you are stuck; this contains the completed
   website.
+
+### Office Hours:
+* 11am-12pm PST/ 2pm-3pm EST
+* Lisa — lisa@thoughtbot.com
+* Lydia — lydia@thoughtbot.com
 
 ### thoughtbot Resources:
 * [Neat][Neat]
