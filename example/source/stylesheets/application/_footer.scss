@@ -32,7 +32,6 @@ footer {
       list-style: none;
       padding-left: 0;
       margin-top: 0;
-      margin-bottom: 0;
 
       h4 {
         color: $light-gray;
@@ -43,8 +42,8 @@ footer {
   }
 
   section.copyright {
-    @include outer-container;
-    @include pad(10px 0);
+    @include fill-parent;
+    padding: 10px 0;
     color: $light-gray;
     letter-spacing: 4px;
     text-align: center;

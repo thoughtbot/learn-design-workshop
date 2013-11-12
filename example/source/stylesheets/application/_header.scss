@@ -7,7 +7,6 @@
 }
 
 header.top-bar {
-  @include clearfix;
   @include outer-container;
   background: $charcoal;
   @include linear-gradient(lighten($charcoal, 10), $charcoal);
