@@ -6,5 +6,9 @@ $serif: $georgia;
 $base-font-family: $sans-serif;
 
 $light-gray: #CCC;
+$charcoal: #444;
 
 $base-link-color: $light-gray;
+$base-hover-color: darken($light-gray, 10);
+
+$header-background-color: $charcoal;

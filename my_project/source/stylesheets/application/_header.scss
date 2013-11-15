@@ -1,11 +1,10 @@
 header.top-bar {
   @include outer-container;
-  background: #444;
+  background: $header-background-color;
   color: #FFF;
   height: 80px;
   letter-spacing: 4px;
   text-transform: uppercase;
-
 
   div.logo {
     float: left;

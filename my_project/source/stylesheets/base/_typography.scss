@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  @include transition(color 0.1s linear);
+  color: $base-link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $base-hover-color;
+  }
+}
