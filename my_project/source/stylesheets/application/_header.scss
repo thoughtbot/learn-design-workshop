@@ -1,0 +1,37 @@
+header.top-bar {
+  @include outer-container;
+  background: #444;
+  color: #FFF;
+  height: 80px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+
+  div.logo {
+    float: left;
+    padding-top: 16px;
+    padding-left: 20px;
+
+    img {
+      height: 50px;
+      width: auto;
+    }
+  }
+
+  nav {
+    float: right;
+
+    ul {
+      font-weight: 700;
+      margin: 0;
+
+      li {
+        @include pad( default 2.0em );
+        display: inline;
+        line-height: em(80);
+        list-style-type: none;
+        text-align: center;
+      }
+    }
+  }
+}

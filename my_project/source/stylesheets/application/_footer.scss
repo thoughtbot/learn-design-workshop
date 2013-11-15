@@ -1,0 +1,52 @@
+div.footer-spacer {
+  height: 255px;
+}
+
+footer {
+  background: #444;
+  bottom: 0;
+  position: absolute;
+  box-sizing: border-box;
+
+  section.main-content {
+    @include outer-container;
+    padding: 20px 40px;
+
+    article.description {
+      @include span-columns(6);
+
+      h4 {
+        color: #CCC;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: #FFF;
+      }
+    }
+
+    ul.company {
+      @include span-columns(4);
+      @include shift(2);
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+
+      h4 {
+        color: #CCC;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  section.copyright {
+    @include fill-parent;
+    padding: 10px 0;
+    color: #CCC;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
