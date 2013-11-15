@@ -19,6 +19,7 @@ header.top-bar {
 
 
   div.logo {
+    float: left;
     padding-top: 16px;
     padding-left: 20px;
 
@@ -29,6 +30,8 @@ header.top-bar {
   }
 
   nav {
+    float: right;
+
     ul {
       font-weight: 700;
       margin: 0;
@@ -42,14 +45,6 @@ header.top-bar {
       }
     }
   }
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
 }
 
 section.masthead {
