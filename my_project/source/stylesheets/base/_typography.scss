@@ -2,6 +2,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+h4 {
+  color: $light-gray;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
 a {
   @include transition(color 0.1s linear);
   color: $base-link-color;
