@@ -10,6 +10,12 @@ section.about.content {
       font-weight: 300;
       font-size: 1.8em;
       line-height: 1.6em;
+
+      @include media($mobile) {
+        @include fill-parent;
+        font-size: 1.4em;
+        line-height: 1.4em;
+      }
     }
 
     aside {
@@ -17,6 +23,7 @@ section.about.content {
 
       ul {
         list-style-type: none;
+        padding-left: 0;
 
         li {
           @include clearfix;
@@ -42,6 +49,10 @@ section.about.content {
             }
           }
         }
+      }
+
+      @include media($mobile) {
+        @include fill-parent;
       }
     }
   }
