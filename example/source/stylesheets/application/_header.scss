@@ -1,37 +1,80 @@
 header.top-bar {
+  @include linear-gradient(lighten($charcoal, 10), $charcoal);
   @include outer-container;
   background: $charcoal;
-  @include linear-gradient(lighten($charcoal, 10), $charcoal);
   color: $white;
   height: 80px;
   letter-spacing: 4px;
   text-transform: uppercase;
 
+  @include media($mobile) {
+    height: auto;
+  }
+
   div.logo {
     float: left;
-    padding-top: 16px;
-    padding-left: 20px;
+    padding: 16px 0;
+
+    @include media($mobile) {
+      padding: 8px 0;
+    }
 
     img {
       height: 50px;
       width: auto;
+
+      @include media($mobile) {
+        height: 35px;
+      }
+    }
+  }
+
+  i#nav-dropdown {
+    display: none;
+    float: right;
+    padding: 14px 0 0 20px;
+
+    @include media($tablet) {
+      display: block;
+    }
+
+    @include media($mobile) {
+      display: block;
     }
   }
 
   nav {
     float: right;
+    padding-top: 18px;
+
+    @include media($mobile) {
+      @include fill-parent;
+      padding-top: 0;
+    }
 
     ul {
+      padding-left: 0;
+      position: relative;
+      z-index: 2;
       font-family: $sans-serif;
       font-weight: 700;
       margin: 0;
 
+      @include media($mobile) {
+        display: none;
+      }
+
       li {
-        @include pad( default 2.0em );
-        display: inline;
-        line-height: em(80);
+        @include inline-block;
+        padding: 0.5em 1em;
         list-style-type: none;
         text-align: center;
+
+        @include media($mobile){
+          background: $charcoal;
+          @include fill-parent;
+          padding-left: 0;
+        }
       }
     }
   }
