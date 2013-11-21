@@ -85,7 +85,11 @@ section.index {
       @include omega(3n);
       text-align: center;
 
-      @include media($tablet) {
+      @include media($small-screen) {
+        @include fill-parent;
+      }
+
+      @include media($mobile) {
         @include fill-parent;
       }
 

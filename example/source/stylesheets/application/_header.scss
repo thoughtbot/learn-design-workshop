@@ -7,7 +7,7 @@ header.top-bar {
   letter-spacing: 4px;
   text-transform: uppercase;
 
-  @include media($mobile) {
+  @include media($small-screen) {
     height: auto;
   }
 
@@ -15,7 +15,7 @@ header.top-bar {
     float: left;
     padding: 16px 0;
 
-    @include media($mobile) {
+    @include media($small-screen) {
       padding: 8px 0;
     }
 
@@ -23,7 +23,7 @@ header.top-bar {
       height: 50px;
       width: auto;
 
-      @include media($mobile) {
+      @include media($small-screen) {
         height: 35px;
       }
     }
@@ -34,11 +34,11 @@ header.top-bar {
     float: right;
     padding: 14px 0 0 20px;
 
-    @include media($tablet) {
+    @include media($small-screen) {
       display: block;
     }
 
-    @include media($mobile) {
+    @include media($small-screen) {
       display: block;
     }
   }
@@ -47,7 +47,7 @@ header.top-bar {
     float: right;
     padding-top: 18px;
 
-    @include media($mobile) {
+    @include media($small-screen) {
       @include fill-parent;
       padding-top: 0;
     }
@@ -60,7 +60,7 @@ header.top-bar {
       font-weight: 700;
       margin: 0;
 
-      @include media($mobile) {
+      @include media($small-screen) {
         display: none;
       }
 
@@ -70,7 +70,7 @@ header.top-bar {
         list-style-type: none;
         text-align: center;
 
-        @include media($mobile){
+        @include media($small-screen){
           background: $charcoal;
           @include fill-parent;
           padding-left: 0;
